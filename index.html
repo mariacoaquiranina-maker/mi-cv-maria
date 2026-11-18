@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículum Vitae - Maria Ines Coaquira Nina</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8edf3;
+    padding: 25px;
+    color: #333;
+}
+
+.cv {
+    width: 210mm;
+    min-height: 297mm;
+    background: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 34% 66%;
+    box-shadow: 0 5px 25px #999;
+}
+
+.sidebar {
+    background: #12304a;
+    color: white;
+    padding: 35px 23px;
+}
+
+.photo {
+    width: 145px;
+    height: 165px;
+    object-fit: cover;
+    border: 4px solid white;
+    display: block;
+    margin: 0 auto 22px;
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    font-size: 17px;
+    margin: 25px 0 12px;
+    border-bottom: 2px solid #80bde5;
+    padding-bottom: 7px;
+}
+
+.sidebar p, .sidebar li {
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.sidebar ul {
+    padding-left: 17px;
+}
+
+.content {
+    padding: 42px 30px;
+}
+
+.name {
+    color: #12304a;
+    font-size: 29px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.profession {
+    color: #4187b7;
+    font-size: 14px;
+    margin: 12px 0 25px;
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    color: #12304a;
+    font-size: 17px;
+    border-bottom: 2px solid #4187b7;
+    padding-bottom: 8px;
+    margin-bottom: 13px;
+}
+
+.section p, .section li {
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.section ul {
+    padding-left: 18px;
+}
+
+.job {
+    margin-bottom: 17px;
+}
+
+.job h3 {
+    font-size: 13px;
+    color: #24648d;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 10px;
+    color: #777;
+    text-align: center;
+}
+
+@media print {
+    body {
+        padding: 0;
+        background: white;
+    }
+
+    .cv {
+        box-shadow: none;
+        margin: 0;
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        padding: 5px;
+    }
+
+    .cv {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <aside class="sidebar">
+
+        <!-- TU FOTOGRAFÍA -->
+        <img src="foto.jpg" class="photo" alt="Mi fotografía">
+
+        <h2>CONTACTO</h2>
+        <p>Teléfono: 940-42-45-90</p>
+        <p>Correo: mariaines@gmail.com</p>
+        <p>Ubicación: Santa Lucía, Puno, Perú</p>
+
+        <h2>HABILIDADES</h2>
+        <ul>
+            <li>Diseño gráfico</li>
+            <li>Instalación de fibra óptica</li>
+            <li>Redacción de documentos</li>
+            <li>Informática básica</li>
+            <li>Trabajo en equipo</li>
+            <li>Responsabilidad</li>
+        </ul>
+
+        <h2>IDIOMAS</h2>
+        <ul>
+            <li>Español</li>
+            <li>Quechua</li>
+        </ul>
+
+        <h2>CONOCIMIENTOS</h2>
+        <ul>
+            <li>Herramientas informáticas</li>
+            <li>Diseño digital</li>
+            <li>Documentación administrativa</li>
+            <li>Redes y telecomunicaciones</li>
+        </ul>
+
+    </aside>
+
+    <main class="content">
+
+        <h1 class="name">
+            MARIA INES<br>COAQUIRA NINA
+        </h1>
+
+        <p class="profession">
+            ESTUDIANTE DE APSTI
+        </p>
+
+        <section class="section">
+            <h2>PERFIL PROFESIONAL</h2>
+            <p>
+                Estudiante del programa de estudios de Arquitectura
+                de Plataformas y Servicios de la Información (APSTI).
+                Cuento con conocimientos y experiencia práctica
+                en fibra óptica, diseño gráfico y redacción de
+                documentos. Me caracterizo por mi responsabilidad,
+                dedicación y disposición para aprender y desarrollar
+                nuevas habilidades profesionales.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>FORMACIÓN ACADÉMICA</h2>
+
+            <div class="job">
+                <h3>
+                    Instituto de Educación Superior
+                    Tecnológico Público Santa Lucía
+                </h3>
+
+                <p>
+                    Programa de estudios: Arquitectura de Plataformas
+                    y Servicios de la Información (APSTI).
+                </p>
+
+                <p>Semestre: VI semestre.</p>
+                <p>Periodo: 2026.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>EXPERIENCIA Y PRÁCTICAS</h2>
+
+            <div class="job">
+                <h3>Fibra óptica</h3>
+                <ul>
+                    <li>Conocimientos prácticos en fibra óptica.</li>
+                    <li>Apoyo en actividades de instalación y mantenimiento.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Diseño gráfico</h3>
+                <ul>
+                    <li>Elaboración de diseños gráficos.</li>
+                    <li>Creación y edición de materiales visuales.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Redacción de documentos</h3>
+                <ul>
+                    <li>Elaboración de solicitudes e informes.</li>
+                    <li>Redacción y edición de documentos administrativos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>HABILIDADES PERSONALES</h2>
+            <ul>
+                <li>Responsabilidad y puntualidad.</li>
+                <li>Organización y compromiso.</li>
+                <li>Facilidad para aprender.</li>
+                <li>Adaptación a nuevos entornos.</li>
+            </ul>
+        </section>
+
+        <footer>
+            CURRÍCULUM · 2026
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
